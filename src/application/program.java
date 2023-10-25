@@ -19,7 +19,7 @@ public class program {
 		ChessPosition target = UI.readChessPosition(sc);
 		
 		ChessPiece capturedPiece = chessMatch.perfomChessMove(source, target);
-		TESTE1
+		
 
 	}
 
