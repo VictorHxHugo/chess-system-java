@@ -87,7 +87,7 @@ public class ChessMatch {
 			throw new ChessException("You can't put yourself in check");
 		}
 
-		ChessPiece movePiece = (ChessPiece) board.piece(target);
+		ChessPiece movedPiece = (ChessPiece) board.piece(target);
 
 		// #specialmove promotion
 		promoted = null;
